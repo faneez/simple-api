@@ -1,4 +1,4 @@
-import Post from "../../models/Post.js"
+import Post from "../models/Post.js"
 import FileService from "./FileService.js"
 class PostService {
 	async createPost(post, picture) {
